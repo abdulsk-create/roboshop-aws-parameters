@@ -16,8 +16,8 @@ parameters = {
   "payment.dev.USER_PORT" = { type = "String", value = "80" }
   "payment.dev.AMQP_HOST" = { type = "String", value = "rabbitmq-dev.entertanova.com" }
 
-  "rabbitmq.dev.AMQP_USER" = { type = "String", value = "cart-dev.entertanova.com:80" }
-  "rabbitmq.dev.AMQP_PASS" = { type = "String", value = "cart-dev.entertanova.com:80" }
+  "rabbitmq.dev.AMQP_USER" = { type = "String", value = "roboshop" }
+  "rabbitmq.dev.AMQP_PASS" = { type = "String", value = "roboshop123" }
 
   ##Passwords
   "docdb.dev.master_password" = { type = "String", value = "roboshop1234" }
