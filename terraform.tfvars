@@ -12,7 +12,7 @@ parameters = {
 
   "payment.dev.CART_HOST" = { type = "String", value = "cart-dev.entertanova.com" }
   "payment.dev.CART_PORT" = { type = "String", value = "80" }
-  "payment.dev.USER_HOST" = { type = "String", value = "user-dev.entertanova.com:80" }
+  "payment.dev.USER_HOST" = { type = "String", value = "user-dev.entertanova.com" }
   "payment.dev.USER_PORT" = { type = "String", value = "80" }
   "payment.dev.AMQP_HOST" = { type = "String", value = "rabbitmq-dev.entertanova.com" }
 
