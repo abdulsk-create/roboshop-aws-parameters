@@ -7,6 +7,8 @@ parameters = {
   "cart.dev.REDIS_HOST"       = { type = "String", value = "dev-redis-elasticache-cluster.ad8quc.0001.use1.cache.amazonaws.com" }
   "cart.dev.CATALOGUE_HOST"   = { type = "String", value = "catalogue-dev.entertanova.com" }
   "cart.dev.CATALOGUE_PORT"    = { type = "String", value = "80" }
+  "shipping.dev.CART_ENDPOINT" = { type = "String", value = "cart-dev.entertanova.com:80" }
+  "shipping.dev.DB_HOST"       = { type = "String", value = "dev-mysql-rds-cluster.cluster-crtmab7wfken.us-east-1.rds.amazonaws.com" }
 
   ##Passwords
   "docdb.dev.master_password" = { type = "String", value = "roboshop1234" }
