@@ -17,15 +17,15 @@ parameters = {
   "payment.dev.AMQP_HOST" = { type = "String", value = "rabbitmq-dev.entertanova.com" }
 
   "rabbitmq.dev.AMQP_USER" = { type = "String", value = "roboshop" }
-  "rabbitmq.dev.AMQP_PASS" = { type = "String", value = "roboshop123" }
+  "rabbitmq.dev.AMQP_PASS" = { type = "SecureString", value = "roboshop123" }
 
   ##Passwords
-  "docdb.dev.master_password" = { type = "String", value = "roboshop1234" }
-  "rds.dev.master_password" = { type = "String", value = "roboshop1234" }
+  "docdb.dev.master_password" = { type = "SecureString", value = "roboshop1234" }
+  "rds.dev.master_password" = { type = "SecureString", value = "roboshop1234" }
 
   #ElasticSearch
   "elasticsearch.username" = { type = "String", value = "elastic" }
-  "elasticsearch.password" = { type = "SecureString", value = "gz5QrWAEtNX4r4adcHDq" }
+  "elasticsearch.password" = { type = "SecureString", value = "JF3XV-_8qCkXwCWZDV*G" }
 }
 
 
