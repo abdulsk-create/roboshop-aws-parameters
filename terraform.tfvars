@@ -21,7 +21,7 @@ parameters = {
 
   ##Passwords
   "docdb.dev.master_password" = { type = "SecureString", value = "roboshop1234" }
-  "rds.dev.master_password" = { type = "SecureString", value = "roboshop1234" }
+  "rds.dev.master_password"   = { type = "SecureString", value = "roboshop1234" }
 
   #ElasticSearch
   "elasticsearch.username" = { type = "String", value = "elastic" }
