@@ -46,8 +46,8 @@ parameters = {
   "docdb.prod.endpoint"         = { type = "String", value = "prod-docdb-cluster.cluster-crtmab7wfken.us-east-1.docdb.amazonaws.com" }
   "rds.prod.master_username"    = { type = "String", value = "devadmin" }
   "rds.prod.database_name"      = { type = "String", value = "dummy" }
-  "user.prod.REDIS_HOST"        = { type = "String", value = "prod-redis-elasticache-cluster.ad8quc.0001.use1.cache.amazonaws.com:6379" }
-  "cart.prod.REDIS_HOST"        = { type = "String", value = "prod-redis-elasticache-cluster.ad8quc.0001.use1.cache.amazonaws.com:6379" }
+  "user.prod.REDIS_HOST"        = { type = "String", value = "prod-redis-elasticache-cluster.ad8quc.0001.use1.cache.amazonaws.com" }
+  "cart.prod.REDIS_HOST"        = { type = "String", value = "prod-redis-elasticache-cluster.ad8quc.0001.use1.cache.amazonaws.com" }
   "cart.prod.CATALOGUE_HOST"    = { type = "String", value = "catalogue-prod.entertanova.com" }
   "cart.prod.CATALOGUE_PORT"    = { type = "String", value = "80" }
   "shipping.prod.CART_ENDPOINT" = { type = "String", value = "cart-prod.entertanova.com:80" }
